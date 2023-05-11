@@ -45,6 +45,6 @@ apartments1.each do |apartment|
 end
 
 apartments2.each do |apartment|
-  user1.apartments.create(apartment)
+  user2.apartments.create(apartment)
   puts "creating: #{apartment}"
 end
